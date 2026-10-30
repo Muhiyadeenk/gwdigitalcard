@@ -1,36 +1,43 @@
-import { Calculator, Code, Compass, GraduationCap, Globe, Laptop } from "lucide-react";
+import {
+  Building2,
+  Calculator,
+  Landmark,
+  Laptop,
+  Receipt,
+  ShieldCheck,
+} from "lucide-react";
 import ServiceCard from "./ServiceCard.jsx";
 
 const SERVICES = [
   {
-    icon: Globe,
-    title: "Global Business Solutions",
-    description: "Guidance for setting up and running your business with confidence.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Education and Training",
-    description: "Practical learning programmes for students and professionals.",
-  },
-  {
     icon: Calculator,
-    title: "Professional Accounting Services",
-    description: "Bookkeeping, tax and compliance support for your business.",
+    title: "Accounting & Bookkeeping",
+    description: "Accurate financial records, ledger maintenance, and monthly reporting to keep your business on track.",
+  },
+  {
+    icon: Receipt,
+    title: "VAT Services",
+    description: "VAT registration, return filing, compliance review, and tax consultancy tailored to regulations.",
+  },
+  {
+    icon: Landmark,
+    title: "Corporate Tax Services",
+    description: "Strategic corporate tax planning, registration, assessment, and compliant filing for your entity.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Audit & Assurance Services",
+    description: "Independent statutory audits, internal reviews, and assurance solutions ensuring financial integrity.",
   },
   {
     icon: Laptop,
-    title: "Computerized Accounting Training",
-    description: "Hands-on training in accounting software and real-world practice.",
+    title: "Software Implementation and Support",
+    description: "Setup, integration, and training for leading accounting and ERP software solutions.",
   },
   {
-    icon: Code,
-    title: "Digital Solutions and IT Services",
-    description: "Technology support to help your business work smarter.",
-  },
-  {
-    icon: Compass,
-    title: "Career Guidance and Placement Support",
-    description: "Guidance to help you plan and take the next step in your career.",
+    icon: Building2,
+    title: "Company Formation & Licensing",
+    description: "End-to-end guidance for business setup, trade licensing, approvals, and corporate structuring.",
   },
 ];
 
